@@ -1,0 +1,6 @@
+br\com\ewave\customerApi\service\CustomerService.class
+br\com\ewave\customerApi\model\Customer.class
+br\com\ewave\customerApi\CustomerApiApplication.class
+br\com\ewave\customerApi\repository\AddressRepository.class
+br\com\ewave\customerApi\repository\CustomerRepository.class
+br\com\ewave\customerApi\model\Address.class
