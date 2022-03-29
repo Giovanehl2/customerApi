@@ -12,4 +12,5 @@ services:
       - POSTGRES_USER=giovane
       - POSTGRES_DB=postgres
 
+##comando para subir o postgres
 ##docker-compose up -d
