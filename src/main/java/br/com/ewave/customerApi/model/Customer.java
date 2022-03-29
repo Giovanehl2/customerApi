@@ -33,7 +33,7 @@ public class Customer implements Serializable {
 	@Schema(example = "45353545", required = true)
 	private Long documentId;
 
-	@Schema(example = "Maria da silva", required = true)
+	@Schema(example = "Nome", required = true)
 	@Size(max = 100)
 	private String name;
 

@@ -33,8 +33,7 @@ public class Address implements Serializable {
 	private long id;
 	
 
-	@Schema(description = "Zip code.",
-			example = "99999-999", required = true)
+	@Schema(example = "99999-999", required = true)
 	@Pattern(regexp = "[0-9]{5}-[\\d]{3}", message = "zipCod invalid")
 	private String zipcode;
 
